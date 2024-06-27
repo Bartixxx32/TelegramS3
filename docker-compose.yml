@@ -2,6 +2,7 @@ version: '3.8'
 
 services:
   telegrams3:
+    image: ghcr.io/bartixxx32/telegrams3:master
     build: .
     ports:
       - "8000:8000"

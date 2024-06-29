@@ -19,4 +19,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 8000
 
 # Run the command to start the application
-#CMD ["python", "main.py"]
+CMD ["python", "main.py"]
